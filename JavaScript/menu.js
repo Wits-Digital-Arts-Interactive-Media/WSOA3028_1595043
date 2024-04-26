@@ -23,8 +23,7 @@ export function initialise(currentPage) {
             a.innerText = menuItem.name
             a.setAttribute("href", menuItem.href)
             li.appendChild(a)
-           
-        } else (li.innerText = menuItem.name)
+        } else {li.innerText = menuItem.name}
         ul.appendChild(li)
     }
     nav.appendChild(ul)
