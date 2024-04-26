@@ -5,8 +5,10 @@ const menuItems =
         { name: "Blog", href: `${root}/Blog Posts/Blogs.html` },
         { name: "Essays", href: `${root}/Essay/Essay.html` },
         { name: "Portfolio", href: `${root}/Portfolio/Portfolio.html` },
+        { name: "Profile", href: `${root}/Profile/about.html` },
         { name: "Design", href: `${root}/Design/Design.html` },
         { name: "Miscellaneous", href: `${root}/Miscellaneous/Misc.html` },
+        
     ]
 const blogPages =
     [
