@@ -2,8 +2,8 @@ const root = "/"
 const menuItems =
     [
         {name: "Home", href: "/index.html"},
-        {name: "Blog", href: `/Blog Posts/index.html`},
-        {name: "Essays", href: `/Essay/index.html`},
+        {name: "Blog Posts", href: `/Blog Posts/index.html`},
+        {name: "Essay", href: `/Essay/index.html`},
         {name: "Portfolio", href: `/Portfolio/Portfolio.html`},
         {name: "Profile", href: `/Profile/about.html`},
         {name: "Design", href: `/Design/Design.html`},
