@@ -1,4 +1,4 @@
-const root = "/WSOA3028_1595043"
+const root = ""
 const menuItems =
     [
         { name: "Home", href: `${root}/index.html`},
@@ -21,10 +21,7 @@ const blogPa =
         {name :"Post 7"},
         {name :"Post 8"},
     ]
-    function GetRoot()
-{
-    return root;
-}
+    
 export function initialise(currentPage) {
     const nav = document.querySelector("header > nav")
     const ul = document.createElement("ul")
