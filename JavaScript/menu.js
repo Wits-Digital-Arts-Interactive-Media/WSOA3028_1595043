@@ -1,13 +1,13 @@
 const root = "/"
 const menuItems =
     [
-        {name: "Home", href: `${root}index.html`},
-        {name: "Blog", href: `${root}Blog Posts/index.html`},
-        {name: "Essays", href: `${root}Essay/Essay.html`},
-        {name: "Portfolio", href: `${root}Portfolio/Portfolio.html`},
-        {name: "Profile", href: `${root}Profile/about.html`},
-        {name: "Design", href: `${root}Design/Design.html`},
-        {name: "Misc", href: `${root}Miscellaneous/Misc.html`},
+        {name: "Home", href: "/index.html"},
+        {name: "Blog", href: `Blog Posts/index.html`},
+        {name: "Essays", href: `Essay/Essay.html`},
+        {name: "Portfolio", href: `Portfolio/Portfolio.html`},
+        {name: "Profile", href: `Profile/about.html`},
+        {name: "Design", href: `Design/Design.html`},
+        {name: "Misc", href: `Miscellaneous/Misc.html`},
         
     ]
 const blogPa =
