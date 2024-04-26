@@ -1,4 +1,4 @@
-const root = "/"
+const root = ""
 const menuItems =
     [
         { name: "Home", href: `${root}index.html` },
