@@ -7,7 +7,7 @@ const menuItems =
         { name: "Portfolio", href: `${root}Portfolio/Portfolio.html` },
         { name: "Profile", href: `${root}Profile/about.html` },
         { name: "Design", href: `${root}Design/Design.html` },
-        { name: "Miscellaneous", href: `${root}Miscellaneous/Misc.html` },
+        { name: "Misc", href: `${root}Miscellaneous/Misc.html` },
         
     ]
 const blogPa =
