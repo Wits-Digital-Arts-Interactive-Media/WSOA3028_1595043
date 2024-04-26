@@ -1,4 +1,4 @@
-const root = "wits-digital-arts-interactive-media.github.io/WSOA3028_1595043/"
+const root = "/"
 const menuItems =
     [
         { name: "Home", href: `${root}index.html` },
