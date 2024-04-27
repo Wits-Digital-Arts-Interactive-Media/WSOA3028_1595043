@@ -15,15 +15,15 @@ const menuItems =
 ]
 
 const BlogPages = [
-    { name: "Blog Home", href: root + "/Blog Posts/index.html" },
-    { name: "Page 1", href: root + "/Blog Posts/Post 1.html"},
-    { name: "Page 2", href: root + "/Blog Posts/Post 2.html"},
-    { name: "Page 3", href: root + "/Blog Posts/Post 3.html"},
-    { name: "Page 4", href: root + "/Blog Posts/Post 4.html"},
-    { name: "Page 5", href: root + "/Blog Posts/Post 5.html"},
-    { name: "Page 6", href: root + "/Blog Posts/Post 6.html"},
-    { name: "Page 7", href: root + "/Blog Posts/Post 7.html"},
-    { name: "Page 8", href: root + "/Blog Posts/Post 8.html"},
+    { name: "Blog Home", href:  "/Blog Posts/index.html" },
+    { name: "Page 1", href:  "/Blog Posts/Post 1.html"},
+    { name: "Page 2", href:  "/Blog Posts/Post 2.html"},
+    { name: "Page 3", href:  "/Blog Posts/Post 3.html"},
+    { name: "Page 4", href:  "/Blog Posts/Post 4.html"},
+    { name: "Page 5", href:  "/Blog Posts/Post 5.html"},
+    { name: "Page 6", href:  "/Blog Posts/Post 6.html"},
+    { name: "Page 7", href:  "/Blog Posts/Post 7.html"},
+    { name: "Page 8", href:  "/Blog Posts/Post 8.html"},
     
 ]
 
