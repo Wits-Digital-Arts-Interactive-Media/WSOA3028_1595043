@@ -45,18 +45,18 @@ export function initialise(currentPage) {
 }
 
 export function Pageinitialise(currentPage) {
-    const nav1 = document.querySelector("header > nav")
-    const u2 = document.createElement("u2")
+    const nav = document.querySelector("header > nav")
+    const ul = document.createElement("ul")
     for (let BlgPage of BlogPages) {
-        const lj = document.createElement("lj")
+        const li = document.createElement("li")
         if (currentPage != BlgPage.name) {
-            const b = document.createElement("b")
-            b.innerText = BlgPage.name
-            b.setAttribute("href", BlgPage.href)
-            lj.appendChild(b)
-        } else { lj.innerText = BlgPage.name }
-        u2.appendChild(lj)
+            const a = document.createElement("a")
+            a.innerText = BlgPage.name
+            a.setAttribute("href", BlgPage.href)
+            li.appendChild(a)
+        } else { li.innerText = BlgPage.name }
+        ul.appendChild(li)
     }
-    nav1.appendChild(u2)
+    nav.appendChild(ul)
 }
 
