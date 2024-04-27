@@ -15,7 +15,7 @@ const menuItems =
 ]
 
 const BlogPages = [
-    { name: "Blog Home", href:  "/Blog Posts/index.html" },
+    { name: "Blog Home", href:  "WSOA3028_1595043/Blog Posts/index.html" },
     { name: "Page 1", href:  "/Blog Posts/Post 1.html"},
     { name: "Page 2", href:  "/Blog Posts/Post 2.html"},
     { name: "Page 3", href:  "/Blog Posts/Post 3.html"},
