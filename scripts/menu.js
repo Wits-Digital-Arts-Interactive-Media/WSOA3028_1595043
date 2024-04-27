@@ -45,7 +45,7 @@ export function initialise(currentPage) {
 }
 
 export function Pageinitialise(currentPage) {
-    const nav = document.querySelector("header > nav")
+    const nav1 = document.querySelector("header > nav")
     const u2 = document.createElement("u2")
     for (let BlgPage of BlogPages) {
         const lj = document.createElement("lj")
@@ -57,6 +57,6 @@ export function Pageinitialise(currentPage) {
         } else { lj.innerText = BlgPage.name }
         u2.appendChild(lj)
     }
-    nav.appendChild(u2)
+    nav1.appendChild(u2)
 }
 
