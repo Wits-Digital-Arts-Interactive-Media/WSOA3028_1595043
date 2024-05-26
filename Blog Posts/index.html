@@ -5,19 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My blog Home page">
     <meta name="author" content="Ettienne Swart">
-    <script type="module"> import { initialise } from "../scripts/menu.js" 
+    <script type="module"> 
+    import { initialise } from "../scripts/menu.js" 
         initialise("Blog");
+        window.onscroll = function() {scrollFunction()};
     </script>
+
+    <link rel="stylesheet" href="/WSOA3028_1595043/scripts/style.css">
+
 </head>
 <body>
-    <header> 
-        Ettienne Swart Blog Posts
-        
-        <nav>
-
+    <div class="container">
+        <nav class="sidebar">
+          <ul>
+            <li><a href="/WSOA3028_1595043/index.html">Home</a></li>
+            <li><a href="/WSOA3028_1595043/Blog Posts/index.html">Blog Posts</a></li>
+            <li><a href="/WSOA3028_1595043/Essay/index.html">Essay</a></li>
+            <li><a href="/WSOA3028_1595043/Portfolio/Portfolio.html">Portfolio</a></li>
+            <li><a href="/WSOA3028_1595043/Design/Design.html">Design</a></li>
+            <li><a href="/WSOA3028_1595043/Profile/about.html">Profile</a></li>
+            <li><a href="/WSOA3028_1595043/Miscellaneous/Misc.html">Miscellaneous</a></li>
+          
+          </ul>
         </nav>
-    
-    </header>
+<main class="content">
+            <header>
+                Ettienne Swarts Website, Blog Home Page
+                <nav>
+        
+                </nav>
+            </header>
     <main>
         <h1>Blog Posts</h1>
         <article>
@@ -65,6 +82,7 @@
 
             
                           
-                
+</main>
+</div>                
 </body>
 </html>
