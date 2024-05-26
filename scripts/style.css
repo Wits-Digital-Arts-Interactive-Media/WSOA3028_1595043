@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 15px auto;
     padding: 0;
     
 
@@ -10,13 +10,9 @@ body {
   
   .container {
     display: flex;
+    position: relative;
   }
-
-  .page-wrap { 
-    width: 250px; 
-    margin: 15px auto; 
-    position: relative; 
-  }
+  
   
   .sidebar {
     width: 250px;
