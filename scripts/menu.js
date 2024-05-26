@@ -25,6 +25,8 @@ const BlogPages = [
     { name: "Page 7", href:  "/WSOA3028_1595043/Blog Posts/Post 7.html"},
     { name: "Page 8", href:  "/WSOA3028_1595043/Blog Posts/Post 8.html"},
     { name: "Page 9", href:  "/WSOA3028_1595043/Blog Posts/Post 9.html"},
+    { name: "Page 10", href:  "/WSOA3028_1595043/Blog Posts/Post 10.html"},
+    { name: "Page 11", href:  "/WSOA3028_1595043/Blog Posts/Post 11.html"},
     
 ]
 
