@@ -8,6 +8,7 @@
     <script type="module">
         import { initialise } from "./scripts/menu.js"
         initialise("Home");
+        window.onscroll = function() {scrollFunction()};
     </script>
 
     <link rel="stylesheet" href="/WSOA3028_1595043/scripts/style.css">
@@ -16,7 +17,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="page-wrap">
     <nav class="sidebar">
       <ul>
         <li><a href="/WSOA3028_1595043/index.html">Home</a></li>

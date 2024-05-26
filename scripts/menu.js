@@ -2,6 +2,7 @@ const root = "/WSOA3028_1595043"
 
 
 
+
 const menuItems =
 [
         { name: "Home", href: root + "/index.html"},
@@ -29,6 +30,14 @@ const BlogPages = [
     { name: "Page 11", href:  "/WSOA3028_1595043/Blog Posts/Post 11.html"},
     
 ]
+
+export function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.querySelector('.sidebar').style.paddingTop = "10px"; // Adjust padding when scrolling down
+    } else {
+      document.querySelector('.sidebar').style.paddingTop = "20px"; // Reset padding when at the top
+    }
+}
 
     
 export function initialise(currentPage) {
@@ -62,4 +71,5 @@ export function Pageinitialise(currentPage) {
     }
     nav.appendChild(ul)
 }
+
 
