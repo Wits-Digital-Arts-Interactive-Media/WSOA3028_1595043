@@ -48,7 +48,7 @@
     padding: 15px 25px; /* Adjust padding for better touch targets */
     font-size: 20px; /* Increase font size for readability */
   }
-  
+
 }
 
 .pagination {
@@ -58,7 +58,7 @@
 
 .pagination a {
   color: black;
-  float: left;
+  float: center;
   padding: 10px 20px;
   text-decoration: none;
   transition: background-color .3s;
@@ -138,10 +138,7 @@ body {
   transition: all 0.3s ease;
 }
 
-p, h2, h1, h3 , pre {
-  padding: 0 5px; /* Adjust padding for smaller screens */
-  font-size: 16px; /* Optional: Adjust font size for readability on smaller screens */
-}
+
 
 img {
   max-width: 100%;
