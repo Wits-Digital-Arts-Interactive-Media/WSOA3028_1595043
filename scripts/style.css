@@ -7,6 +7,7 @@
     
     flex-direction: column;
     align-items: center; /* Center items vertically */
+
 }
 
 .site-header {
@@ -45,6 +46,7 @@
     padding: 120px;
     padding-top: 20px; /* Adjust padding for content area */
     width: 100%; /* Ensure content spans full width */
+    background-color: #00eaff;
 }
 
 p, h1, h2, h3, pre {
@@ -160,6 +162,7 @@ body {
   margin-left: 250px; /* Adjust content margin to make space for the fixed sidebar */
   padding-top: 80px; /* Adjust for header height */
   transition: all 0.3s ease;
+  background-color: #00eaff;
 }
 
 
