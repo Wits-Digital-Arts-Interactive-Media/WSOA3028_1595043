@@ -43,7 +43,7 @@
 
 .content {
     flex: 1;
-    padding: 20px;
+    padding: 120px;
     padding-top: 20px; /* Adjust padding for content area */
     width: 100%; /* Ensure content spans full width */
 }
