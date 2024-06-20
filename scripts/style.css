@@ -16,28 +16,27 @@
 }
 
 .sidebar {
-  width: 100px; /* Adjust sidebar width */
+  width: 150px; /* Adjust sidebar width */
   height: auto;
-  position: relative;
-  padding-top: 20px;
-  padding-right: 0px;
-  top: 0; /* Reset top for relative positioning */
+  position: fixed;
+  top: 60px; /* Adjust top position to avoid overlap with header */
   right: 0;
-  margin-top: 10px; /* Add margin to separate sidebar from header */
-  margin-right: 0px;
   background-color: #73d370; /* Example background color */
   color: #000; /* Example text color */
+  padding: 20px; /* Add padding inside sidebar */
   overflow-y: auto; /* Add scrollbar if needed */
+  z-index: 1; /* Ensure sidebar is above content */
 }
 
 .sidebar ul {
   list-style-type: none;
   padding: 0;
-  text-align: left; /* Center text within sidebar */
+  text-align: center; /* Center text within sidebar */
 }
 
 .sidebar ul li {
-  padding: 0;
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin between list items */
 }
 
 
