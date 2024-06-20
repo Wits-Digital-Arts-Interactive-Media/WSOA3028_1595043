@@ -2,19 +2,36 @@
 
 @media screen and (max-width: 768px) {
   .container {
-      flex-direction: column;
-  }
-
-  .sidebar {
-      width: 100%;
-      height: auto;
-  }
-
-  .content {
-      margin-left: 0;
-      padding-top: 0;
-  }
+    flex-direction: column;
 }
+
+.site-header {
+    text-align: center;
+}
+
+.sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sidebar ul li {
+    padding: 5px 10px;
+}
+
+.content {
+    margin-left: 0;
+    padding-top: 20px; /* Adjust for header height */
+}
+}
+
 
 body {
   font-family: Arial, sans-serif;
