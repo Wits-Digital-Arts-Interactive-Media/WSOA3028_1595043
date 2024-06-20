@@ -42,63 +42,19 @@
       padding: 120px;
       padding-top: 20px; /* Adjust padding for content area */
       width: 100%; /* Ensure content spans full width */
-      background-color: #00c7fef8;
+      
   }
   
-  p, h1, h2, h3, pre {
-      margin: 10px 0; /* Add margin around paragraphs and headings */
-      padding: 0 10px; /* Add horizontal padding */
-      font-size: 18px; /* Increase font size for better readability */
-      line-height: 1.6; /* Improve line spacing */
+ 
+  
+ 
+  
+  
   }
   
-  img {
-      max-width: 100%;
-      height: auto;
-      display: block; /* Ensure images behave as block elements */
-      margin: 0 auto; /* Center images horizontally */
-  }
   
-  .pagination {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px; /* Add space between content and pagination */
-  }
   
-  .pagination a {
-      padding: 12px 20px; /* Adjust padding for better touch targets */
-      font-size: 18px; /* Decrease font size slightly */
-      margin: 0 5px; /* Add margin between pagination links */
-  }
-  }
   
-  .pagination {
-    display: inline-block;
-    margin: 20px 0;
-  }
-  
-  .pagination a {
-    color: black;
-    float: center;
-    padding: 10px 20px;
-    text-decoration: none;
-    transition: background-color .3s;
-    font-size: 18px; /* Increase font size */
-    border: 1px solid #ddd;
-    margin: 0 5px;
-    border-radius: 5px; /*  Add rounded corners */
-  }
-  
-  .pagination a:hover:not(.active) {
-    background-color: #ddd;
-  }
-  
-  .pagination a.active {
-    background-color: #4CAF50;
-    color: white;
-    border: 1px solid #4CAF50;
-  }
   
   body {
     font-family: Arial, sans-serif;
@@ -163,9 +119,5 @@
   
   
   
-  img {
-    max-width: 100%;
-    height: auto;
-  }
   
   
