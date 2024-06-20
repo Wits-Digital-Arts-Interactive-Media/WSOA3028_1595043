@@ -31,7 +31,7 @@
 .sidebar ul {
   list-style-type: none;
   padding: 0;
-  text-align: center; /* Center text within sidebar */
+  text-align: left; /* Center text within sidebar */
 }
 
 .sidebar ul li {
