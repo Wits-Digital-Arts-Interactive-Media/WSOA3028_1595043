@@ -89,7 +89,7 @@ img {
   font-size: 18px; /* Increase font size */
   border: 1px solid #ddd;
   margin: 0 5px;
-  border-radius: 5px; /* Optional: Add rounded corners */
+  border-radius: 5px; /*  Add rounded corners */
 }
 
 .pagination a:hover:not(.active) {
