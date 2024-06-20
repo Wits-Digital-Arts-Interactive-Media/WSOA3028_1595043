@@ -43,9 +43,40 @@
       max-width: 100%;
       height: auto;
   }
+
+  .pagination a {
+    padding: 15px 25px; /* Adjust padding for better touch targets */
+    font-size: 20px; /* Increase font size for readability */
+  }
+  
 }
 
+.pagination {
+  display: inline-block;
+  margin: 20px 0;
+}
 
+.pagination a {
+  color: black;
+  float: left;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color .3s;
+  font-size: 18px; /* Increase font size */
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -105,4 +136,19 @@ body {
   margin-left: 250px; /* Adjust content margin to make space for the fixed sidebar */
   padding-top: 80px; /* Adjust for header height */
   transition: all 0.3s ease;
+}
+
+p, h2, h1, h3 , pre {
+  padding: 0 5px; /* Adjust padding for smaller screens */
+  font-size: 16px; /* Optional: Adjust font size for readability on smaller screens */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+pre {
+  white-space: pre-wrap; /* Allow preformatted text to wrap */
+  word-wrap: break-word; /* Ensure long words break */
 }
