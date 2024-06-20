@@ -39,10 +39,11 @@
 
 
 .content {
-    flex: 1;
-    padding: 20px;
-    padding-top: 20px; /* Adjust padding for content area */
-    width: 100%; /* Ensure content spans full width */
+  flex: 1;
+  padding: 20px;
+  padding-top: 20px; /* Adjust padding for content area */
+  width: calc(100% - 200px); /* Adjust content width to account for sidebar */
+  margin-left: 200px; /* Ensure content is pushed to the right of the sidebar */
 }
 
 p, h1, h2, h3, pre {
