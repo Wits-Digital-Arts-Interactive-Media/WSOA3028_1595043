@@ -20,7 +20,7 @@
   width: 50px; /* Adjust sidebar width */
   height: auto;
   position: fixed;
-  top: 60px; /* Adjust top position to avoid overlap with header */
+  top: 50px; /* Adjust top position to avoid overlap with header */
   right: 0;
   background-color: #73d370; /*  background color */
   color: #000; /*  text color */
@@ -46,7 +46,7 @@
     padding: 120px;
     padding-top: 20px; /* Adjust padding for content area */
     width: 100%; /* Ensure content spans full width */
-    background-color: #00eaff;
+    background-color: #00c7fef8;
 }
 
 p, h1, h2, h3, pre {
@@ -116,7 +116,7 @@ body {
 }
 
 .site-header {
-  background-color: #00eaff;
+  background-color: #00c7fef8;
   color: #000;
   padding: 10px;
   text-align: left;
@@ -136,7 +136,7 @@ body {
   height: calc(100vh - 60px); /* Adjust height to account for header */
   padding-top: 20px;
   position: fixed;
-  top: 60px; /* Adjust for header height */
+  top: 50px; /* Adjust for header height */
   left: 0;
   overflow-y: auto;
   transition: all 0.3s ease;
