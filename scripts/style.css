@@ -1,5 +1,7 @@
 /* styles.css */
 
+/* Media Queries for Responsive Design */
+
 @media screen and (max-width: 768px) {
   .container {
       flex-direction: column;
@@ -31,7 +33,18 @@
       margin-left: 0;
       padding-top: 80px; /* Adjust for header height */
   }
+
+  p, h2, h1, h3 , pre {
+      padding: 0 5px; /* Adjust padding for smaller screens */
+      font-size: 16px; /* Optional: Adjust font size for readability on smaller screens */
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+  }
 }
+
 
 
 body {
@@ -46,7 +59,7 @@ body {
 }
 
 .site-header {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   color: #000;
   padding: 10px;
   text-align: left;
