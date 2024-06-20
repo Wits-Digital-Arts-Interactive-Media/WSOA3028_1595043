@@ -16,7 +16,7 @@
 }
 
 .sidebar {
-  width: 150px; /* Adjust sidebar width */
+  width: 50px; /* Adjust sidebar width */
   height: auto;
   position: fixed;
   top: 60px; /* Adjust top position to avoid overlap with header */
