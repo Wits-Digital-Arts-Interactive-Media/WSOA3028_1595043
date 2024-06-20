@@ -64,6 +64,7 @@ body {
   top: 0;
   left: 0;
   overflow-y: auto;
+  transition: all 0.3s ease;
 }
 
 .sidebar ul {
@@ -85,4 +86,5 @@ body {
   padding: 20px;
   margin-left: 250px; /* Adjust content margin to make space for the fixed sidebar */
   padding-top: 60px; /* Adjust for header height */
+  transition: all 0.3s ease;
 }
