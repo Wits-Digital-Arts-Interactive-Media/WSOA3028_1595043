@@ -16,27 +16,25 @@
 }
 
 .sidebar {
-  width: 100px; /* Adjust sidebar width */
-  height: auto;
-  position: relative;
-  padding-top: 20px;
-  top: 0; /* Reset top for relative positioning */
-  margin-top: 10px; /* Add margin to separate sidebar from header */
-  background-color: #73d370; /* Example background color */
-  color: #000; /* Example text color */
-  overflow-y: auto; /* Add scrollbar if needed */
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0;
+    top: 0; /* Reset top for relative positioning */
+    margin-top: 10px; /* Add margin to separate sidebar from header */
 }
 
 .sidebar ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: center; /* Center text within sidebar */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0; /* Reset default padding */
 }
 
 .sidebar ul li {
-  padding: 10px;
+    padding: 10px; /* Increase padding around list items */
+    text-align: center; /* Center text within list items */
 }
-
 
 .content {
     flex: 1;
