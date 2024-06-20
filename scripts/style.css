@@ -16,7 +16,7 @@
 }
 
 .sidebar {
-  width: 200px; /* Adjust sidebar width */
+  width: 100px; /* Adjust sidebar width */
   height: auto;
   position: relative;
   padding-top: 20px;
@@ -39,11 +39,10 @@
 
 
 .content {
-  flex: 1;
-  padding: 20px;
-  padding-top: 20px; /* Adjust padding for content area */
-  width: calc(100% - 200px); /* Adjust content width to account for sidebar */
-  margin-left: 200px; /* Ensure content is pushed to the right of the sidebar */
+    flex: 1;
+    padding: 20px;
+    padding-top: 20px; /* Adjust padding for content area */
+    width: 100%; /* Ensure content spans full width */
 }
 
 p, h1, h2, h3, pre {
